@@ -1,4 +1,15 @@
-## RESTful API using Vapor and Fluent integrated with PSQL database.
-
+# RESTful API using Vapor and Fluent integrated with PSQL database.
+This API provides a robust and efficient platform for managing natural disaster data. Built with the power of Vapor, Fluent, and PostgreSQL, it offers a comprehensive suite of functionalities to effectively track, update, and retrieve information about natural disasters.
 ## Feature List
-1- Add new disaster (Post) 2- Update disaster (PUT/Patch) 3- Fetch all disasters (Get) 4- Fetch disasters by date (Get) 5- Delete disaster (Delete) 6- Fetch disasters by location (Get) 7- Fetch disasters by status (Get) 8- Update status (Patch)
+CRUD Operations:
+##Create (POST): 
+Add new disaster records to the database, including details like type, location, date, and initial status.
+##Read (GET):
+Retrieve all disaster records from the database.
+Filter disasters by date range to fetch specific occurrences.
+Search for disasters based on location to focus on affected areas.
+Query disasters based on their current status (e.g., ongoing, resolved).
+##Update (PUT/PATCH):
+Modify existing disaster records, allowing adjustments to details like severity, ongoing actions, or final assessments.
+Update the disaster status to reflect its current stage (e.g., from "ongoing" to "resolved").
+##Delete (DELETE): Remove disaster records from the database, potentially for outdated or irrelevant entries.
